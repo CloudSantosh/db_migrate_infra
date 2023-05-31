@@ -49,7 +49,7 @@
 
 ## Structure of the Project is :
 
-<img src="https://github.com/CloudSantosh/aws_autoscaling_terraform/blob/master/images/DB-migrate-infra.png" width="400" height="600" alignment="center">
+<img src="images/db_migrate_infra.png" width="400" height="600" alignment="center">
 
 ## Provisioning the infrastructure the following commands are executed on directory dev_env
 
