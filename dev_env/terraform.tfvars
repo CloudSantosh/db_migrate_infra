@@ -8,3 +8,6 @@ private_subnet_az2_cidr = "192.168.3.0/24"
 max_size                = 5
 min_size                = 2
 instance_type           = "t2.micro"
+bucket_name_1           = "patients-dataset1111111"
+bucket_name_2           = "amplify-doctorspatientsapp-staging-73102-deployment1111"
+bucket_name_3           = "amplify-amplifydemo-staging-71413-deployment1111"

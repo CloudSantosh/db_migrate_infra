@@ -8,3 +8,6 @@ variable "private_subnet_az2_cidr" {}
 variable "max_size" {}
 variable "min_size" {}
 variable "instance_type" {}
+variable "bucket_name_1" {}
+variable "bucket_name_2" {}
+variable "bucket_name_3" {}

@@ -76,3 +76,16 @@ module "rds_server" {
   rds_security_group_id = module.security_groups.rds_security_group_id
 
 }
+
+
+
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  Create Simple Storage Service
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+module "simple_storage_service" {
+  source        = "../modules/simple_storage_service"
+  bucket_name_1 = var.bucket_name_1
+  bucket_name_2 = var.bucket_name_2
+  bucket_name_3 = var.bucket_name_3
+}
