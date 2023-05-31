@@ -8,7 +8,7 @@
 
 ## Structure of the Project is :
 
-<img src="images/project_structure.png" width="1000" height="800" alignment="center">
+<img src="images/project_structure.png" width="700" height="800" alignment="center">
 
 ## Provisioning the infrastructure the following commands are executed on directory dev_env
 
