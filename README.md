@@ -4,52 +4,11 @@
 
 ## Structure of the Project is
 
-.
-├── README.md
-├── dev_env
-│   ├── main.tf
-│   ├── provider.tf
-│   ├── terraform.tfvars
-│   └── variables.tf
-├── images
-│   └── DB-Migrate-infra.png
-├── modules
-│   ├── application_load_balancer
-│   │   ├── main.tf
-│   │   ├── output.tf
-│   │   └── variable.tf
-│   ├── auto_scaling
-│   │   ├── data.tf
-│   │   ├── file.sh
-│   │   ├── main.tf
-│   │   ├── output.tf
-│   │   └── variable.tf
-│   ├── keypair_generator
-│   │   ├── main.tf
-│   │   ├── output.tf
-│   │   └── variables.tf
-│   ├── rds_server
-│   │   ├── main.tf
-│   │   ├── output.tf
-│   │   └── variables.tf
-│   ├── security_groups
-│   │   ├── main.tf
-│   │   ├── output.tf
-│   │   └── variables.tf
-│   ├── simple_storage_service
-│   │   ├── main.tf
-│   │   ├── output.tf
-│   │   └── variable.tf
-│   └── vpc
-│   ├── main.tf
-│   ├── output.tf
-│   └── variables.tf
-
-10 directories, 30 files
+<img src="images/project_structure.png" width=1000" height="800" alignment="center">
 
 ## Structure of the Project is :
 
-<img src="images/db_migrate_infra.png" width="400" height="600" alignment="center">
+<img src="images/db_migrate_infra.png" width="1000" height="800" alignment="center">
 
 ## Provisioning the infrastructure the following commands are executed on directory dev_env
 
