@@ -2,7 +2,6 @@
 #------------------------------------------------------------------------------------------------------------------
 # Creating  Three Simple Notification Subscription Notification i.e S3 bucket 
 #------------------------------------------------------------------------------------------------------------------
-#---------------------------------------------------------------------
 resource "aws_s3_bucket" "mybucket_1" {
   //bucket = "mybucket-${random_string.text.result}"
   //count = length(var.bucket_names)
@@ -34,7 +33,7 @@ resource "aws_s3_bucket" "mybucket_3" {
 
 
 #---------------------------------------------------------------------
-# aws_s3_bucket_public_access_block
+# aws_s3_bucket_public_access_block with 1 and 2 buckets with only private 
 #---------------------------------------------------------------------
 # For first bucket
 
