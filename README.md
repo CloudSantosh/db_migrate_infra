@@ -2,7 +2,7 @@
 
     This is infrastructure code for database migration from on premises to the aws cloud database. We have used terraform for provisioning infrastructure.
 
-## Structure of the Project is
+## Structure of the Project
 
 <img src="images/project_structure.png" width=1000" height="800" alignment="center">
 
